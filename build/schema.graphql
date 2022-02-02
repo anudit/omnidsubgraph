@@ -1,0 +1,10 @@
+type Omnid @entity {
+  id: ID!
+  tokenId: BigInt!
+  score: BigInt!
+  skinIndex: BigInt!
+  etching: String!
+  refreshTime: BigInt!
+  lastUpkeep: BigInt!
+  tokenURI: String!
+}
